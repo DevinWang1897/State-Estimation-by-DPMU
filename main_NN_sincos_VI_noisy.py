@@ -47,9 +47,9 @@ def mape(actual, pred):
 table_path='DataSet_folder/' # this is the path of the folder that contains the needed csv data files.
 temp_file_path='temp_best_model.h5' # this is the path and file name of the saved temporary best model file during training.
 save_MAPE_csv_table_path='MAPE_summary.csv'
-epoch_num=2 # maximum number of epochs in the model training.
-batch_size=10000 # number of samples in a mini-batch
-patience=10 # early stopping patience, in terms of epochs.
+epoch_num=1000 # maximum number of epochs in the model training.
+batch_size=10 # number of samples in a mini-batch
+patience=100 # early stopping patience, in terms of epochs.
 
 
 # load DPMU locations
