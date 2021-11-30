@@ -1,4 +1,4 @@
-This folder contains examples of the dataset files. The datasets are generated in a simulation of the IEEE 37-bus test feeder. 
+This folder contains examples of the dataset files. The datasets are generated in a simulation of the IEEE 37-bus test feeder. The dataset simulates half-hourly data of a full year. 
 
 The data noise are simulated as follows:
 (1) The PMU data has TVE=1%.
