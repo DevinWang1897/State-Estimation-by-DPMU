@@ -1,0 +1,5 @@
+This folder contains examples of the dataset files. The datasets are generated in a simulation of the IEEE 37-bus test feeder. 
+
+The data noise are simulated as follows:
+(1) The PMU data has TVE=1%.
+(2) The noisy smart meter data has 0.1% noise level.
