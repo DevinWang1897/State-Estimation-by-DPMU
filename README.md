@@ -9,7 +9,7 @@ Output of the model: the voltage magnitude of the feeder's smart meters.
 Both the DPMU and smart meter data contains noise. However, when evaluating the testing performance, we should use noiseless smart meter data for reference.
 
 # How to use
-1. Before using the code, a user should prepare a folder containing all the data files needed to train the state estimation neural network model. In this folder, the following files should be prepared. Note that all the voltage magnitudes are in per unit, all the current magnitudes are in Ampere, and all the phase angles are in radian. This repository contains a DataSet_folder as an example of a complete dataset folder.
+1. Before using the code, a user should prepare a folder containing all the data files needed to train the state estimation neural network model. In this folder, the following files should be prepared. Note that all the voltage magnitudes are in per unit, all the current magnitudes are in Ampere, and all the phase angles are in radian. This repository contains a **DataSet_folder as an example of a complete dataset folder**.
 (1) uPMU_V_list.csv: This is a table containing all the potential nodes in the distribution network whose voltage can be measured by a DPMU, i.e., the DPMU voltage locations. Each node is represented by a number.
 (2) Branch_list.csv: This is a table containing all the potential branches in the distribution network whose current can be measured by a DPMU, i.e., the DPMU current locations. Each branch is represented by two nodes and each node is represented by a number.
 (3) uPMU_V_mag.csv: This is a table of DPMU voltage magnitude measurement of all the potential DPMU voltage locations. Each 3 columns represent the 3-phase voltage magnitude of a node.
